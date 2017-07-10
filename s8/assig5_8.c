@@ -5,7 +5,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void createarray(int, int, int, int*/*, int* */);
+void createarray(int, int, int, int*/*, int* */);           // I didn't understand the prototype 
 void printarray(int*, int);
 
 int main()
