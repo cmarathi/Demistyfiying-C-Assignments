@@ -18,10 +18,10 @@ int main()
         scanf("%d", &list[i]);
     }
 
-    reverse(&list, size);
+    reverse(list, size);                // &list may give a warning. If you want to send a base address just send name of an array
 
     printf("\n\n");
-    printf("\t");printarray(&list, size);
+    printf("\t");printarray(list, size);    //// &list may give a warning. If you want to send a base address just send name of an array
     printf("\n");
 
     return 0;
