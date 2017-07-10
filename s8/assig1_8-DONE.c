@@ -16,7 +16,7 @@ int main()
     int total=0, nsum=0, psum=0;
     double average;
 
-    for(i=0;i<sizeof(num)/sizeof(int);i++)
+    for(i=0;i<sizeof(num)/sizeof(int);i++)                      // Good Logic
     {
         printf("Input number %d:\t", i+1);
         scanf("%d", &num[i]);
