@@ -32,22 +32,16 @@ void reverse(int* ar_adress, int size)
     int t;
     int* realbase;
 
-    realbase=ar_adress;
-    size--;
+    realbase=ar_adress+size-1;
 
-    while(1)
+    while(ar_adress<realbase)
     {
         t=*ar_adress;
-        *ar_adress=*(realbase+size);
-        *(realbase+size)=t;
+        *ar_adress=*realbase;
+        *realbase=t;
 
-        size--;
+        realbase--;
         ar_adress++;
-
-        if(ar_adress==(realbase+size) || ar_adress>(realbase+size))
-        {
-            break;
-        }
     }
 }
 
