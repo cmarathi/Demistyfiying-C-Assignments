@@ -31,7 +31,7 @@ void low_up(char* str)
         {
             *str+=32;
             str++;
-            continue;  //Is this faster than else if structure?
+            continue;  //Is this faster than else if structure?         // Not a bad idea
         }
         if(*str>=97 && *str<=122)
             *str-=32;
