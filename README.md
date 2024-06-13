@@ -3,4 +3,4 @@ Exercises for the Udemy course "Demystifying C Programming" by Bhalchandra Gholk
 
 https://www.udemy.com/demystifying-c-programming-language-basic/
 
-http://www.cmarathionline.com/
+
